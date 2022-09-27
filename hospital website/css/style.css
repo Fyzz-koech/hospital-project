@@ -489,6 +489,10 @@ section:nth-child(even){
     padding:1rem 0;
 }
 
+.footer{
+    background-color: #1d212f;
+}
+
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
@@ -497,14 +501,14 @@ section:nth-child(even){
 
 .footer .box-container .box h3{
     font-size: 2.5rem;
-    color:var(--black);
+    color: #eee;
     padding: 1rem 0;
 }
 
 .footer .box-container .box a{
     display: block;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color: #eee;
     padding: 1rem 0;
 }
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>profile page</title>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="Doctor's profile.css">
+
+</head>
+<body>
+   
+<div class="profile">
+   <form action="" method="post" enctype="multipart/form-data">
+      <img src="images/default-avatar.png">
+      <div class="flex">
+         <div class="inputBox">
+            <span>update your pic :</span>
+            <input type="file" name="update_image" accept="image/jpg, image/jpeg, image/png" class="box"> <br>
+            <span>First name :</span>
+            <input type="text" name="first name" placeholder="first name" class="box" required> <br>
+            <span>last name :</span>
+            <input type="text" name="last name" placeholder="last name" class="box" required> <br>
+            <span>phone number :</span>
+            <input type="text"name="phone_number" placeholder="phone Number" required><br>
+            <span>your email :</span>
+            <input type="email" name="email" placeholder="email" class="box" required><br>
+            <span>new password :</span>
+            <input type="password" name="password" placeholder="enter password" class="box" required> <br>
+            <span>confirm password :</span>
+            <input type="password" name="confirm password" placeholder="confirm password" class="box" required> <br>
+         </div>
+         <input type="submit" value="send info" name="upload profile" class="btn">
+         <a href="index.html" class="delete-btn">go back</a>
+   </form>
+
+</div>
+<!-- <script>
+   file.addEventListener('change', function(){
+    //this refers to file
+    const choosedFile = this.files[0];
+
+    if (choosedFile) {
+
+        const reader = new FileReader(); //FileReader is a predefined function of JS
+
+        reader.addEventListener('load', function(){
+            img.setAttribute('src', reader.result);
+        });
+
+        reader.readAsDataURL(choosedFile);
+    }
+});
+</script> -->
+</body>
+</html>
